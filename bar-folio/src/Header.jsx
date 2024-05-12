@@ -2,13 +2,13 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section className='header-main-section flex space-between justify-center'>
-      <span className='logo'>Bar.dev</span>
+    <section className='header-main-section flex space-between align-center'>
+      <span className='logo pointer'>Bar.dev</span>
       <div className='nav-content'>
-        <span>About</span>
-        <span>Experience</span>
-        <span>Projects</span>
-        <span>Contact</span>
+        <span className='pointer'>About</span>
+        <span className='pointer'>Experience</span>
+        <span className='pointer'>Projects</span>
+        <span className='pointer'>Contact</span>
       </div>
     </section>
   )

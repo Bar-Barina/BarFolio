@@ -1,0 +1,15 @@
+.header-main-section {
+  padding: 1.2rem 7rem;
+  font-size: 18px;
+  font-weight: 600;
+  .logo {
+    font-size: 26px;
+    color: $secondaryColor;
+  }
+  span {
+    margin: 0 0.8rem;
+    &:hover {
+      color: $secondaryColor;
+    }
+  }
+}
