@@ -1,0 +1,34 @@
+.hero-main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  img {
+    margin-top: 50px;
+  }
+  .devices {
+    width: 40%;
+  }
+  .purple-div {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: $secondaryColor;
+    font-size: 20px;
+    h3 {
+      font-size: 32px;
+    }
+  }
+}
