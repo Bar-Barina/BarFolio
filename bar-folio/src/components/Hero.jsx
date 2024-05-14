@@ -1,5 +1,6 @@
 import React from 'react'
 import MyImg from '../assets/imgs/MyImg.jpg'
+import { getSvg } from '../services/svg.service'
 
 const Hero = () => {
   return (
@@ -15,6 +16,26 @@ const Hero = () => {
         </p>
         <div className='blue-colored-div'></div>
         <div className='lightblue-colored-div'></div>
+        <div className='links'>
+          <a
+            href='https://www.linkedin.com/in/bar-barina/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='pointer'
+            dangerouslySetInnerHTML={{
+              __html: getSvg('linkedin'),
+            }}
+          ></a>
+          <a
+            href='https://github.com/Bar-Barina'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='pointer'
+            dangerouslySetInnerHTML={{
+              __html: getSvg('github'),
+            }}
+          ></a>
+        </div>
       </div>
       <div className='img-background'>
         <img src={MyImg} alt='avatar' className='avatar' />
