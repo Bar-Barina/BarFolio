@@ -56,6 +56,35 @@
       }
     }
   }
+  .skills-wrapper {
+    margin-top: 4rem;
+    margin-left: -17rem;
+    column-gap: 20px;
+    span {
+      border-right: 2px solid rgba(45, 46, 50, 0.5);
+      padding: 20px;
+      font-weight: 600;
+    }
+    .skills-icons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 40px;
+      img {
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      .first-row-img {
+        &:hover {
+          transform: translateY(-1rem);
+        }
+      }
+      .second-row-img {
+        &:hover {
+          transform: translateY(1rem);
+        }
+      }
+    }
+  }
 
   .devices {
     width: 40%;
