@@ -6,7 +6,6 @@ const Header = () => {
       <span className='logo pointer'>BarFolio</span>
       <div className='nav-content'>
         <span className='pointer'>About</span>
-        <span className='pointer'>Experience</span>
         <span className='pointer'>Projects</span>
         <span className='pointer'>Contact</span>
       </div>
