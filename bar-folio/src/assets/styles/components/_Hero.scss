@@ -28,18 +28,6 @@
         width: 50%;
         height: 10px;
       }
-      .links {
-        display: flex;
-        gap: 1.3rem;
-        margin: 2rem 0;
-        svg {
-          transition: color 0.3s ease-in-out;
-          transition-delay: 1.5ms;
-          &:hover {
-            color: #147efb;
-          }
-        }
-      }
     }
     .img-background {
       width: 320px;
@@ -54,52 +42,6 @@
         height: 300px;
         border-radius: 50%;
       }
-    }
-  }
-  .skills-wrapper {
-    margin-top: 4rem;
-    margin-left: -17rem;
-    column-gap: 20px;
-    span {
-      border-right: 2px solid rgba(45, 46, 50, 0.5);
-      padding: 20px;
-      font-weight: 600;
-    }
-    .skills-icons {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px 40px;
-      img {
-        transition: all 0.3s ease-in-out;
-      }
-      .first-row-img {
-        &:hover {
-          transform: translateY(-1rem);
-        }
-      }
-      .second-row-img {
-        &:hover {
-          transform: translateY(1rem);
-        }
-      }
-    }
-  }
-
-  .devices {
-    width: 40%;
-    margin-top: 3rem;
-  }
-  .purple-div {
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    background-color: $secondaryColor;
-    font-size: 20px;
-    h3 {
-      font-size: 32px;
     }
   }
 }

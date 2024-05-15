@@ -1,0 +1,12 @@
+.links {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  svg {
+    transition: color 0.3s ease-in-out;
+    transition-delay: 1.5ms;
+    &:hover {
+      color: #147efb;
+    }
+  }
+}
