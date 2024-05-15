@@ -1,0 +1,38 @@
+{
+    "projects": [
+    {
+        "img": "",
+        "name": "Someday",
+        "stack": [
+            "Vue.js",
+            "SASS",
+            "Node.js",
+            "MongoDB"
+        ],
+        "description": "An end to end, team management app inspired by \"Monday\", leverages several technologies including Vue JS, MongoDB and Node JS to provide a seamless user experience.",
+        "link": "https://someday-com.onrender.com/"
+    },
+    {
+        "img": "",
+        "name": "Musicay",
+        "stack": [
+            "React.js",
+            "SASS",
+            "Node.js",
+            "MongoDB"
+        ],
+        "description": "An audio streaming app inspired by Spotify, built with ReactJs, MongoDB and Node JS.",
+        "link": "https://music-k9lb.onrender.com/"
+    },
+    {
+        "img": "",
+        "name": "AppSus",
+        "stack": [
+            "Vue.js",
+            "SASS"
+        ],
+        "description": "An \"all in one\" app including: mail, notes and 2 digital book shops inspired by Gmail and Google Keep, built with Vue JS.",
+        "link": "https://bar-barina.github.io/AppSus/#/keep"
+    }
+]
+}
