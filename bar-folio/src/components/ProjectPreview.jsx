@@ -1,19 +1,24 @@
 import React from 'react'
+import { getSvg } from '../services/svg.service'
 
 function ProjectPreview({ project }) {
   return (
-    <div className='project-preview'>
-      <img src={project.img} alt={`${project.name} screenshot`} />
-      <h3>{project.name}</h3>
+    <div className='project-preview flex column auto-center '>
+      <h2>{project.name}</h2>
       <p>{project.description}</p>
-      <a href={project.link} target='_blank' rel='noopener noreferrer'>
-        View Project
-      </a>
-      <ul>
+      <div className='stack-wrapper flex auto-center'>
         {project.stack.map((tech, index) => (
-          <li key={index}>{tech}</li>
+          <span key={index}>{tech}</span>
         ))}
-      </ul>
+      </div>
+      <a href={project.link} target='_blank' rel='noopener noreferrer'>
+        <span
+          dangerouslySetInnerHTML={{
+            __html: getSvg('link'),
+          }}
+        ></span>
+        <span>{project.shortLink}</span>
+      </a>
     </div>
   )
 }

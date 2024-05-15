@@ -3,7 +3,7 @@ import ProjectPreview from './ProjectPreview'
 
 function ProjectList({ projects }) {
   return (
-    <section className='projectList-main-section flex'>
+    <section className='projectList-main-section'>
       {projects.map((project, index) => (
         <ProjectPreview key={index} project={project} />
       ))}

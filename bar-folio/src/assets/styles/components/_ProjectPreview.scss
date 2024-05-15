@@ -1,0 +1,34 @@
+.project-preview {
+  padding: 40px 35px;
+  margin: 2rem;
+  gap: 20px;
+  text-align: center;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  border-radius: 12px;
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  p {
+    color: #141c3a;
+  }
+  .stack-wrapper {
+    gap: 10px;
+    font-size: 12px;
+  }
+  a {
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    background-color: #ebf5ff;
+    color: #0068d1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    svg {
+      width: 0.9rem;
+    }
+  }
+}
