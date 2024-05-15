@@ -1,12 +1,14 @@
 import '../../src/assets/styles/styles.scss'
 import Header from './Header'
 import Hero from './Hero'
+import About from './About'
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <About />
     </>
   )
 }

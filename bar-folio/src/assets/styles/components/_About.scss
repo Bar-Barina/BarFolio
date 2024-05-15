@@ -1,0 +1,30 @@
+.about-main-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 4rem 20rem;
+  background-color: aliceblue;
+  .about-text-wrapper {
+    gap: 20px;
+    h4 {
+      font-size: 17px;
+      color: #147efb;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-weight: 700;
+    }
+    p {
+      padding-right: 5em;
+      color: #555;
+      font-weight: 400;
+    }
+  }
+  img {
+    border-radius: 1.7rem;
+    height: 18rem;
+    width: 21rem;
+  }
+}
