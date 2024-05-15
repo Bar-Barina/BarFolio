@@ -2,7 +2,7 @@ import '../../src/assets/styles/styles.scss'
 import Header from './Header'
 import Hero from './Hero'
 import About from './About'
-import ProjectList from './ProjectList'
+import ProjectIndex from './ProjectIndex'
 import React, { useEffect, useState } from 'react'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <ProjectList projects={projects} />
+      <ProjectIndex projects={projects} />
     </>
   )
 }
